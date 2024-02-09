@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className + ' bg-fixed bg-cover bg-no-repeat'} style={{ backgroundImage: 'url(/bg.jpg)' }}>{children}</body>
+      <body className={inter.className + ' bg-fixed bg-cover bg-no-repeat antialiased'} style={{ backgroundImage: 'url(/bg.jpg)' }}>{children}</body>
     </html>
   );
 }
